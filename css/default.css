@@ -44,6 +44,9 @@ body {
 h1 {
   font-weight: normal;	
 }
+.text-warning{
+	color: #fdad01;
+}
 /*------------------------------------------------------------------------------------*/
 .test{
 	border: 1px dotted red;
@@ -101,7 +104,7 @@ h1 {
 	background-image: url(../images/hero_bg.png);
 }
 .hero-sec-row{
-	background-image: url(../images/herobg2.jpg);
+	background-image: url(../images/banner.jpg);
 	min-height: 556px;
 	border-bottom: 8px solid #ffea8f;
 
@@ -154,7 +157,7 @@ h1 {
 	padding: 0 32px 0 32px;
 	line-height: 25px;
 }
-.welcome h3,.feature_maid_col h3{
+.welcome h3,.feature_maid_col h3,.contact_area_col h3{
 	display: inline-block;
 	width: 260px;
 	height: 44px;
@@ -205,4 +208,12 @@ footer p{
 /*----------------------------------------- gallery -------------------------------------*/
 .gallery_img_col{
 	padding: 0px 20px 0px 20px;
+}
+/*--------------------------------------- contact ---------------------------------------*/
+.contact_area_col{
+	margin: 20px auto;
+}
+/*---------------------------------------search --------------------------------------------*/
+.thumbnail{
+	border: none !important;
 }
